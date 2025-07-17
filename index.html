@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Course Generator</title>
+  <script defer src="script.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 font-sans">
+
+  <!-- Start Page -->
+  
+
+<div id="page-start" class="min-h-screen flex items-center justify-center">
+  <div class="text-center">
+    <h1 class="text-4xl font-bold mb-6 text-gray-800">Course Generator</h1>
+    <button id="startBtn" class="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-lg text-xl shadow-lg">
+      Click Here
+    </button>
+  </div>
+</div>
+
+
+
+  <!-- Subjects Page -->
+  <div id="page-subjects" class="min-h-screen p-8 hidden">
+    <h1 class="text-3xl font-bold mb-6">Select a Subject</h1>
+    <div id="subjectCards" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6"></div>
+  </div>
+
+  <!-- Levels Page -->
+  <div id="page-levels" class="min-h-screen p-8 hidden">
+    <h1 class="text-3xl font-bold mb-6">Select Difficulty Level</h1>
+    <div id="levelButtons" class="flex flex-col md:flex-row gap-4"></div>
+  </div>
+
+  <!-- Quiz Page -->
+  <div id="page-quiz" class="min-h-screen p-8 hidden">
+    <h1 id="quizTitle" class="text-2xl font-bold mb-4"></h1>
+    <div id="questionCounter" class="mb-2 text-lg text-gray-600"></div>
+    <div id="questionText" class="text-xl mb-4 font-medium"></div>
+    <div id="optionsContainer" class="flex flex-col gap-4 mb-6"></div>
+    <button id="nextBtn" class="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700" disabled>
+      Next
+    </button>
+  </div>
+
+  
+  <!-- Results Page -->
+<div id="page-results" class="min-h-screen flex items-center justify-center hidden">
+  <div class="text-center">
+    <h1 class="text-3xl font-bold mb-4">Your Score:</h1>
+    <div id="scoreText" class="text-2xl mb-6"></div>
+    <button id="playAgainBtn" class="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg text-xl">
+      Play Again
+    </button>
+  </div>
+</div>
+
+
+</body>
+</html>
