@@ -6,20 +6,12 @@ An interactive quiz application built with **HTML**, **CSS**, and **JavaScript**
 
 ## 🌟 Features
 
-- 📚 Choose from multiple subjects (e.g., HTML, CSS, JavaScript, C, Java, React)
+- 📚 Choose from multiple subjects (e.g. Python, Java, C , React)
 - 🎚️ Select quiz difficulty: Easy, Medium, Hard
 - ❓ Displays 10 questions per quiz with four answer options
 - ✅ Instant feedback and scoring system
 - 🔁 Option to replay quiz after finishing
 - 💻 Responsive UI using Tailwind CSS
-
----
-
-## 🧪 Demo
-
-![Course Generator Preview](https://via.placeholder.com/800x400?text=Course+Generator+Preview)
-
-> You can also deploy this project using GitHub Pages (ask me if you want help!).
 
 ---
 
@@ -31,5 +23,5 @@ An interactive quiz application built with **HTML**, **CSS**, and **JavaScript**
 
 ---
 
-## 📁 Folder Structure
+
 
