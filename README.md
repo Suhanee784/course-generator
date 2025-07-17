@@ -14,6 +14,8 @@ An interactive quiz application built with **HTML**, **CSS**, and **JavaScript**
 - 💻 Responsive UI using Tailwind CSS
 
 ---
+## 🔗 Live Demo
+Try it here: [Course Generator](https://suhanee784.github.io/course-generator/)
 
 ## 🔧 Technologies Used
 
